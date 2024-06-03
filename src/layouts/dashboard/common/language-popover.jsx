@@ -31,7 +31,7 @@ export default function LanguagePopover() {
   const [open, setOpen] = useState(null);
 
   const handleOpen = (event) => {
-    setOpen(event.currentTarget);
+    setOpen(null);
   };
 
   const handleClose = () => {
